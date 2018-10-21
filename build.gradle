@@ -33,22 +33,26 @@ task clean(type: Delete) {
 // Define versions in a single place
 ext {
     // Sdk and tools
-    minSdkVersion = 16
-    targetSdkVersion = 26
-    compileSdkVersion = 26
+    minSdkVersion = 23
+    targetSdkVersion = 27
+    compileSdkVersion = 27
     buildToolsVersion = '28.0.3'
 
-    // App variables
+    // App
     versionName = "1.0.0"
-    apiUrl = '"http://de-coding-test.s3.amazonaws.com/books.json"'
+    apiUrl = '"http://de-coding-test.s3.amazonaws.com/"'
 
     // App dependencies
+    daggerVersion = '2.17'
     supportLibraryVersion = '26.1.0'
-    annotationVersion = '27.1.1'
     constraintLibraryVersion = '1.1.3'
     junitVersion = '4.12'
-    runnerVersion = '1.0.2'
+    mockitoVersion = '1.10.19'
+    powerMockito = '1.6.2'
+    hamcrestVersion = '1.3'
+    runnerVersion = '1.0.0'
+    rulesVersion = '1.0.0'
     espressoVersion = '3.0.1'
-    volleyVersion = '1.0.0'
-    picassoVersion = '2.5.2'
+    rxjavaVersion = '2.1.3'
+    rxandroidVersion = '2.0.2'
 }

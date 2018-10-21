@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">DEJsonTest</string>
+    <string name="app_name">AndroidCodingChallenge</string>
+    <string name="error_loading">Error loading books, try again later</string>
+    <string name="no_network">No Network</string>
 </resources>
